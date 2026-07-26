@@ -1,0 +1,28 @@
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/coverage/
+backend/*.local
+backend/frontend/dist/
+backend/frontend/node_modules/
+
+# Mobile app
+mobile-app/node_modules/
+mobile-app/.expo/
+mobile-app/dist/
+mobile-app/web-build/
+mobile-app/*.local
+mobile-app/.env
+
+# Not part of the delivered source (already merged into backend/src)
+backend-extension/
+
+# Local-only files, not part of the submission
+desktop.ini
+Postech*.pdf
+ROTEIRO-VIDEO.md
+
+# OS
+.DS_Store
+Thumbs.db

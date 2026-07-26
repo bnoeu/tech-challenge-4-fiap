@@ -1,0 +1,30 @@
+services:
+  app:
+    image: laureanowow/tech-challenge-api:latest
+    container_name: tech_challenge_api
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/tech-challenge
+      - PORT=3000
+    depends_on:
+      - mongo
+
+  frontend:
+    image: laureanowow/tech-challenge-frontend:latest
+    container_name: tech_challenge_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - app
+
+  mongo:
+    image: mongo:7
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

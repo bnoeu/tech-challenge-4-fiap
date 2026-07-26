@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+coverage/
+.claude/
+frontend/dist/
+frontend/node_modules/
+*.local
+
+docker-images/
