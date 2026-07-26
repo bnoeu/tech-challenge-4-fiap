@@ -129,10 +129,3 @@ mobile-app/
         ├── PeopleListScreen.js   # genérica: professores ou alunos
         └── PeopleFormScreen.js   # genérica: professores ou alunos
 ```
-
-## Relato de desafios (preencher com a experiência real da equipe)
-
-> Esta seção deve ser completada pela equipe descrevendo as dificuldades
-> encontradas durante o desenvolvimento (ex: configuração de rede entre o
-> emulador e o back-end, ajustes de CORS, definição do fluxo de autenticação
-> de aluno vs. professor, etc.) — é um item exigido na entrega.
