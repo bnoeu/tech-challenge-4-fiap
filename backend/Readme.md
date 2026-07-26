@@ -1,11 +1,10 @@
-# Tech Challenge Fase 3 - FIAP · Blog de Posts
+# Tech Challenge Fase 4 - FIAP · Blog de Posts
 
 ## 👥 Integrantes
 
 * Bruno da silva santos
 * Diogo Laureano de Sousa
 * Lucas Miguel Ribeiro Silva
-* João Vitor Silveira Cercená
 
 ---
 
@@ -34,7 +33,7 @@
 
 # Introdução
 
-Este projeto é uma plataforma de blog educacional com controle de acesso por papel (professor / aluno), desenvolvida como Tech Challenge Fase 3 da pós-graduação em Software Engineering da FIAP.
+Este projeto é uma plataforma de blog educacional com controle de acesso por papel (professor / aluno), desenvolvida como Tech Challenge Fase 4 da pós-graduação em Software Engineering da FIAP.
 
 A aplicação conta com uma interface gráfica em React integrada a uma API REST em Node.js/Express, banco de dados MongoDB e pipeline completo de CI/CD via GitHub Actions com publicação automática de imagens Docker.
 
