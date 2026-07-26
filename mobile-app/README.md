@@ -129,3 +129,23 @@ mobile-app/
         ├── PeopleListScreen.js   # genérica: professores ou alunos
         └── PeopleFormScreen.js   # genérica: professores ou alunos
 ```
+
+## Relato de desafios
+
+Este foi o primeiro contato da equipe com o desenvolvimento de um aplicativo mobile,
+o que trouxe uma curva de aprendizado real ao longo do projeto. Boa parte do esforço
+inicial foi entender o ecossistema do React Native e do Expo — hooks, navegação entre
+telas com React Navigation, persistência de sessão com AsyncStorage e o ciclo de
+build/execução em emulador e dispositivo físico, tudo isso sem a base prévia que já
+tínhamos com React para web.
+
+Outro ponto de aprendizado foi a integração entre o app e o back-end: configurar a
+`BASE_URL` corretamente para cada ambiente (emulador Android, simulador iOS e Expo Go
+em dispositivo físico), lidar com CORS e ajustar o interceptor do Axios para anexar o
+token JWT em todas as requisições autenticadas. Também exigiu atenção desenhar o fluxo
+de autenticação de forma que professores tivessem login completo enquanto alunos
+pudessem navegar em modo leitura sem qualquer barreira.
+
+Apesar da curva de aprendizado, o processo reforçou conceitos de componentização e
+gerenciamento de estado que já conhecíamos do React, e permitiu que a equipe saísse do
+projeto confortável com o desenvolvimento mobile.
